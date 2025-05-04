@@ -29,12 +29,3 @@
   <li>Styled articles, sidebars, and footer with a consistent color palette</li>
 </ul>
 
-<h2>💡 Ideas for Improvement</h2>
-<ul>
-  <li>Integrate a blog CMS or markdown converter</li>
-  <li>Use JavaScript or a framework like React for dynamic rendering</li>
-  <li>Enable light/dark mode toggle</li>
-</ul>
-
-<h2>👤 Author</h2>
-<p>Designed and developed by [Your Name]. Feel free to personalize and expand this project.</p>
