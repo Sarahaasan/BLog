@@ -1,0 +1,156 @@
+/* var for improving performance  */
+:root {
+    --back-color: white;
+    --blue-color: #007bff;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: var(--blue-color);
+    color: var(--back-color);
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  header::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: var(--back-color);
+  }
+  
+  /* Nav\ bar  styling */
+  nav  ul {
+    display: flex;
+    justify-content: center ;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: var(--blue-color) !important;
+  }
+  
+  nav a {
+    color: var(--back-color) !important;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    justify-content: center !important;
+  }
+  
+  
+  /* Post section styling */
+  .post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--back-color);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+  }
+  
+  .post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .post p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .post .btn-primary {
+    background-color: var(--blue-color);
+    border: none;
+  }
+  
+  .post .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Aside section styling */
+  aside {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  
+  aside h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  aside ul li {
+    margin-bottom: 10px;
+  }
+  
+  aside ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  aside ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #343a40;
+    color: var(--back-color);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Back to top button styling */
+  .back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    background-color: var(--back-color);
+    box-shadow: var(--shadow);     
+    border: none;
+    font-size: 24px;
+    border-radius: 50%; 
+    transition: transform 0.3s ease;    /* Use transform for smooth scaling */
+    padding: 15px;                     /* Added padding to make the button more clickable */
+    cursor: pointer;                  /* Indicate the button is clickable */
+  }
+  
+  .back-to-top:hover {
+    transform: scale(1.1);           /* Use scale for smoother hover effect */
+  }
+  
+  
+  
