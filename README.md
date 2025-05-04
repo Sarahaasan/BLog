@@ -9,6 +9,7 @@
 <ul>
   <li><code>index.html</code> – Main HTML file with blog layout</li>
   <li><code>style.css</code> – Custom CSS for styling and responsiveness</li>
+  <li><code>main.js</code> -main JS file for interaction  </li>
 </ul>
 
 <h2>🛠️ Technologies Used</h2>
